@@ -1,0 +1,106 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "name": "Salary",
+      "type": "income",
+      "category": "Salary",
+      "amount": 2500,
+      "date": "2025-09-01"
+    },
+    {
+      "id": "3",
+      "name": "Transport",
+      "type": "expense",
+      "category": "Transport",
+      "amount": 45,
+      "date": "2025-09-03"
+    },
+    {
+      "id": "4",
+      "name": "Entertainment",
+      "type": "expense",
+      "category": "Entertainment",
+      "amount": 80,
+      "date": "2025-09-04"
+    },
+    {
+      "id": "5",
+      "name": "Salary",
+      "type": "income",
+      "category": "Salary",
+      "amount": 2500,
+      "date": "2025-10-01"
+    },
+    {
+      "id": "6",
+      "name": "Groceries",
+      "type": "expense",
+      "category": "Groceries",
+      "amount": 95,
+      "date": "2025-10-03"
+    },
+    {
+      "id": "7",
+      "name": "Transport",
+      "type": "expense",
+      "category": "Transport",
+      "amount": 60,
+      "date": "2025-10-05"
+    },
+    {
+      "id": "8",
+      "name": "Entertainment",
+      "type": "expense",
+      "category": "Entertainment",
+      "amount": 150,
+      "date": "2025-10-06"
+    },
+    {
+      "id": "9",
+      "name": "Groceries",
+      "type": "expense",
+      "category": "Groceries",
+      "amount": 110,
+      "date": "2025-10-07"
+    },
+    {
+      "id": "10",
+      "name": "Transport",
+      "type": "expense",
+      "category": "Transport",
+      "amount": 50,
+      "date": "2025-10-08"
+    },
+    {
+      "id": 1758464762868,
+      "name": "Car",
+      "category": "Transport",
+      "type": "expense",
+      "amount": 343,
+      "date": "2023-02-13"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Salary",
+      "type": "income"
+    },
+    {
+      "id": "2",
+      "name": "Groceries",
+      "type": "expense"
+    },
+    {
+      "id": "3",
+      "name": "Transport",
+      "type": "expense"
+    },
+    {
+      "id": "4",
+      "name": "Entertainment",
+      "type": "expense"
+    }
+  ]
+}
