@@ -2,81 +2,81 @@
   "transactions": [
     {
       "id": "1",
-      "name": "Salary",
+      "name": "Acme Corp Payroll",
       "type": "income",
       "category": "Salary",
-      "amount": 2500,
+      "amount": 3200,
       "date": "2025-09-01"
     },
     {
-      "id": "3",
-      "name": "Transport",
+      "id": "2",
+      "name": "Shell Gas Station",
       "type": "expense",
       "category": "Transport",
       "amount": 45,
       "date": "2025-09-03"
     },
     {
-      "id": "4",
-      "name": "Entertainment",
+      "id": "3",
+      "name": "Netflix Subscription",
       "type": "expense",
       "category": "Entertainment",
-      "amount": 80,
+      "amount": 15,
       "date": "2025-09-04"
     },
     {
-      "id": "5",
-      "name": "Salary",
+      "id": "4",
+      "name": "Acme Corp Payroll",
       "type": "income",
       "category": "Salary",
-      "amount": 2500,
+      "amount": 3200,
       "date": "2025-10-01"
     },
     {
-      "id": "6",
-      "name": "Groceries",
+      "id": "5",
+      "name": "Walmart Supercenter",
       "type": "expense",
       "category": "Groceries",
       "amount": 95,
       "date": "2025-10-03"
     },
     {
-      "id": "7",
-      "name": "Transport",
+      "id": "6",
+      "name": "Uber Ride",
       "type": "expense",
       "category": "Transport",
-      "amount": 60,
+      "amount": 22,
       "date": "2025-10-05"
     },
     {
-      "id": "8",
-      "name": "Entertainment",
+      "id": "7",
+      "name": "Spotify Premium",
       "type": "expense",
       "category": "Entertainment",
-      "amount": 150,
+      "amount": 10,
       "date": "2025-10-06"
     },
     {
-      "id": "9",
-      "name": "Groceries",
+      "id": "8",
+      "name": "Trader Joe’s",
       "type": "expense",
       "category": "Groceries",
-      "amount": 110,
+      "amount": 120,
       "date": "2025-10-07"
     },
     {
-      "id": "10",
-      "name": "Transport",
+      "id": "9",
+      "name": "Lyft Ride",
       "type": "expense",
       "category": "Transport",
-      "amount": 50,
+      "amount": 38,
       "date": "2025-10-08"
     },
     {
-      "id": 1758464762868,
-      "name": "Car",
-      "category": "Transport",
+      "id": "10",
+      "name": "Toyota Service Center",
       "type": "expense",
+      "category": "Transport",
       "amount": 343,
       "date": "2023-02-13"
     }
