@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export interface Transaction {
-  id: number
+  id: string
   name: string
   type: 'income' | 'expense'
   category: string
@@ -21,7 +21,7 @@ export const addTransaction = async (transaction: Transaction) => {
   return res.data
 }
 
-export const deleteTransaction = async (id: number) => {
+export const deleteTransaction = async (id: string) => {
   await axios.delete(`${API_URL}/${id}`)
   return id
 }

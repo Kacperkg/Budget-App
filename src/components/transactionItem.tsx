@@ -2,7 +2,7 @@ import { memo } from 'react'
 import { useTransactions } from '../store'
 import { Trash } from 'lucide-react'
 
-type Props = { id: number | string }
+type Props = { id: string }
 
 const TransactionItem = memo(function TransactionItem({ id }: Props) {
   const transaction = useTransactions((state) =>

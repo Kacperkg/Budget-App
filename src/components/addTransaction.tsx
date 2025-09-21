@@ -17,7 +17,7 @@ export default function AddTransaction() {
     console.log('Test')
 
     await addTransaction({
-      id: Date.now(),
+      id: Date.now().toString(),
       name,
       category,
       type: category.toLowerCase() === 'salary' ? 'income' : 'expense',

@@ -12,7 +12,7 @@ interface TransactionState {
   error: string | null
   getTransactions: () => Promise<void>
   addTransaction: (transaction: Transaction) => Promise<void>
-  deleteTransaction: (id: number) => Promise<void>
+  deleteTransaction: (id: string) => Promise<void>
 }
 
 const useTransactions = create<TransactionState>((set) => ({
@@ -43,7 +43,7 @@ const useTransactions = create<TransactionState>((set) => ({
     }
   },
 
-  deleteTransaction: async (id: number) => {
+  deleteTransaction: async (id: string) => {
     set({ loading: true, error: null })
     try {
       await deleteTransaction(id)
